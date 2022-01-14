@@ -101,7 +101,7 @@ $router->group([
 });
 
 // Catch-all Route...
-$router->get('/{view?}', [
+$router->get('/', [
     'as' => 'horizon.index',
     'uses' => 'HomeController@index'
 ]);
